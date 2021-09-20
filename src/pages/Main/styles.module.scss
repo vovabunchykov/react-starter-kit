@@ -1,0 +1,30 @@
+@import "../../global";
+
+/* ---------- Mobile, START ---------- */
+.container {
+  margin: 20px 5%;
+}
+
+.title {
+  color: $text-color;
+  font-family: "OpenSans_400", sans-serif;
+  font-weight: $weight-bold;
+  font-size: $size-medium;
+}
+/* ---------- Mobile, END ---------- */
+
+/* ---------- Tablet, START ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    color: #585858;
+  }
+}
+/* ---------- Tablet, END ---------- */
+
+/* ---------- Desktop, START ---------- */
+@media screen and (min-width: 1025px) {
+  .title {
+    color: #070707;
+  }
+}
+/* ---------- Desktop, END ---------- */

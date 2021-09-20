@@ -1,0 +1,37 @@
+@import "../../global";
+
+/* ---------- Mobile, START ---------- */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  padding: 0 20px 0 0;
+}
+
+.link {
+  text-decoration: none;
+  &:hover {
+    font-weight: bold;
+  }
+  &:visited {
+    color: black;
+  }
+}
+
+.activeLink {
+  font-weight: bold;
+}
+/* ---------- Mobile, END ---------- */
+
+/* ---------- Tablet, START ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* ---------- Tablet, END ---------- */
+
+/* ---------- Desktop, START ---------- */
+@media screen and (min-width: 1025px) {
+}
+/* ---------- Desktop, END ---------- */
